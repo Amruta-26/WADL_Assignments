@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="responsive-style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="navbar navbar-expand-md bg-dark navbar-dark py-3 fixed-top">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img src="asset/portfolio.png" class="port-img" alt="portfolio logo"> </a>
+      <button class="offcanva-button btn btn-warning" type="button" data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+        <i class="fas fa-stream fa-2x"></i>
+        <!-- Enable both scrolling & backdrop -->
+      </button>
+
+      <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+        aria-labelledby="offcanvasWithBothOptionsLabel">
+        <div class="offcanvas-header container">
+          <h5 class="offcanvas-title px-4 py-3" id="offcanvasWithBothOptionsLabel">Visit Other Sections</h5>
+          <button type="button" class="btn-close text-reset px-3" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <hr size="7" class="m-0">
+        <div class="offcanvas-body px-4 py-0">
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+            <li class="nav-item">
+              <a href="#home" class="nav-link align-middle px-5 py-4">
+                <i class="fs-4 bi-house"></i> <span class="ms-1 ">Home</span>
+              </a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link px-5 py-4 align-middle">
+                <i class="fs-4 bi-speedometer2"></i> <span class="ms-1">About</span> </a>
+
+            </li>
+            <li>
+              <a href="#education" class="nav-link px-5 py-4 align-middle">
+                <i class="fs-4 bi-table"></i> <span class="ms-1">Education</span></a>
+            </li>
+            <li>
+              <a href="#skills" class="nav-link px-5 py-4 align-middle ">
+                <i class="fs-4 bi-bootstrap"></i> <span class="ms-1">Skills</span></a>
+
+            </li>
+            <li>
+              <a href="#projects" class="nav-link px-5 py-4 align-middle">
+                <i class="fs-4 bi-grid"></i> <span class="ms-1">Project</span> </a>
+
+            </li>
+            <li>
+              <a href="#contactme" class="nav-link px-5 py-4 align-middle">
+                <i class="fs-4 bi-people"></i> <span class="ms-1">Contact</span> </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link px-3"> About </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#education" class="nav-link px-3"> Education </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link px-3"> Skills </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link px-3"> Projects </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contactme" class="nav-link px-3"> Contact </a>
+                    </li>
+                </ul> -->
+    </div>
+  </div>
+  </div>
+
+
+
+  <!-- Home Section -->
+  <section id="home" class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="container p-5">
+      <div class="home-con d-sm-flex align-items-center justify-content-between">
+        <div class="home-all-text">
+          <p class="text-1"><span class="text-warning"> Hello, </span>my name is </p>
+          <p class="text-2">Amruta Darak</p><br>
+          <p class="text-3">And I'm a <span class="typing"></span></p><br>
+          <a href="https://drive.google.com/file/d/1OlEgJVOBDZ8rlrEg5HaAzl0aLQbD5vWU/view" target="_blank">
+            <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#open">
+              Open Resume
+            </button>
+          </a>
+
+        </div>
+        <img class="img-fluid w-50 d-none d-md-block" src="asset/showcase.svg" alt="A coder" />
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- About me -->
+  <section id="about" class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+    <div class="my-details d-flex flex-column align-items-center justify-content-center">
+      <h1 class="aboutMe-title">About me</h1>
+      <h2 class="aboutMe-subtitle">Know me better</h2>
+    </div>
+
+    <div class="container">
+      <div class="row align-items-center justify-content-between p-3">
+        <div class="col-md align-items-center p-5">
+          <img src="asset/Amruta.jpeg" class="img-fluid w-50 my-img" alt="Amruta Photo" />
+        </div>
+        <div class="col-md">
+          <h2>I'm Amruta and I'm a Learner</h2>
+          <p class="lead">
+            I have acquired knowledge of Web Development through constantly updating myself with new and improved ways
+            of doing things.
+          </p>
+          <p>
+            I'm very keen to explore new learnings and expand my knowledge as vast as I can, just to grow more and more
+            with the technologies.
+            I'm also skilled in Java, C++, Html, CSS, JavaScript, React, Bootstrap.
+          </p>
+          <a href="mailto:darakamruta@gmail.com" class="btn btn-primary mt-3 px-4 py-2 hireMe">
+            <strong>Hire Me</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Education -->
+  <section class="bg-light p-5" id="education">
+    <div class="container my-5">
+      <h1 class="education-title">My Education</h1>
+      <h2 class="education-subtitle">Qualification Details</h2>
+      <div class="row text-center g-4 my-5">
+        <div class="col-md">
+          <div class="card bg-dark text-light py-5 py-lg-0">
+            <div class="card-body text-center">
+              <div class="h1 mb-3 mb-lg-0">
+                <i class="bi bi-people d-lg-block"></i>
+              </div><br>
+              <h3 class="card-title mb-3">De Paul English Medium High School</h3>
+              <h4 class="location text-warning"> Rahuri Factory </h4> <br>
+              <h5 class="edu-text text-primary">
+                Secondary (SSC) (10)
+              </h5><br>
+              <h5 class="edu-duration">
+                2017
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-dark text-light py-5 py-lg-0">
+            <div class="card-body text-center">
+              <div class="h1 mb-3 mb-lg-0">
+                <i class="bi bi-person-square d-lg-block"></i>
+              </div><br>
+              <h3 class="card-title mb-3">Arts, Science, & Commerce College</h3>
+              <h4 class="location text-warning"> Rahuri </h4> <br>
+              <h5 class="edu-text text-primary">
+                Higher Secondary (HSC) (10+2)
+              </h5><br>
+              <h5 class="edu-duration">
+                2017 - 2019
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="card bg-dark text-light py-5 py-lg-0">
+            <div class="card-body text-center">
+              <div class="h1 mb-3 mb-lg-0">
+                <i class="bi bi-laptop d-lg-block"></i>
+              </div><br>
+              <h3 class="card-title mb-3">Pune Institute of Computer Technology</h3>
+              <h4 class="location text-warning"> Pune </h4><br>
+              <h5 class="edu-text text-primary">
+                B. E. - I. T. (SPPU) (Undergraduate)
+              </h5><br>
+              <h5 class="edu-duration">
+                2019 - 2023
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-light text-dark">
+    <div class="my-skills d-flex flex-column align-items-center justify-content-center">
+      <h1 class="skills-title">Skills</h1>
+      <h2 class="skills-subtitle text-primary">Know my skills</h2>
+    </div>
+
+    <div class="container skills-details my-5">
+      <div class="row align-items-center justify-content-between">
+        <div class="col-md align-items-center p-5">
+          <h2 class="text marb">My Skills and Self Learnings</h2>
+          <p class="short-des">I am a third-year Information Technology Engineering undergraduate student and a
+            self-taught frontend web developer.
+            I am a quick and enthusiastic learner and have a keen interest in developing systems that can solve
+            real-life problems.
+            <br /> I have acquired knowledge of Web Development through constantly updating myself with new and improved
+            ways of doing things.
+          </p>
+
+          <a href="linkedin.com/in/amruta-darak" class="btn btn-primary mt-3 px-4 py-2 linkedin-button"><strong>Go to my
+              LinkedIn</strong></a>
+        </div>
+
+
+        <div class="skills-tabs col-md align-items-center">
+          <h2 class="lnt-heading marb">Languages and Frameworks</h2>
+
+          <div class="container lnf">
+            <div class="row p-1">
+              <div class="col">
+                <div class="flex space-x-1 items-center">
+                  <div class="text-2xl">
+                    <i class="devicon-html5-plain colored xsize"></i>
+                    <span class=" text-gray-500 ysize">HTML</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="flex space-x-1 items-center">
+                  <div class="text-2xl">
+                    <i class="devicon-css3-plain colored xsize"></i>
+                    <span class=" text-gray-500 ysize">CSS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row p-1">
+              <div class="col">
+                <div class="flex space-x-1 items-center">
+                  <div class="text-2xl">
+                    <i class="devicon-javascript-plain colored xsize"></i>
+                    <span class=" text-gray-500 ysize">JavaScript</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="flex space-x-1 items-center">
+                  <div class="text-2xl">
+                    <i class="devicon-bootstrap-plain colored xsize"></i>
+                    <span class=" text-gray-500 ysize">Bootstrap</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row p-1">
+              <div class="col">
+                <div class="flex space-x-1 items-center">
+                  <div class="text-2xl">
+                    <i class="devicon-react-original colored xsize"></i>
+                    <span class=" text-gray-500 ysize">React</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="flex space-x-1 items-center">
+                  <div class="text-2xl">
+                    <i class="devicon-nodejs-plain colored xsize"></i>
+                    <span class=" text-gray-500 ysize">Node JS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col">
+                <div class="flex space-x-1 items-center">
+                  <div class="text-2xl">
+                    <i class="devicon-cplusplus-plain colored xsize"></i>
+                    <span class=" text-gray-500 ysize">C++</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="flex space-x-1 items-center">
+                  <div class="text-2xl">
+                    <i class="devicon-java-plain colored xsize"></i>
+                    <span class=" text-gray-500 ysize">Java</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row p-1">
+              <div class="col">
+                <div class="flex space-x-1 items-center">
+                  <div class="text-2xl">
+                    <i class="devicon-python-plain colored xsize"></i>
+                    <span class=" text-gray-500 ysize">Python</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="flex space-x-1 items-center">
+                  <div class="text-2xl">
+                    <i class="devicon-mysql-plain colored xsize"></i>
+                    <span class=" text-gray-500 ysize">MySQL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row p-1">
+              <div class="col">
+                <div class="flex space-x-1 items-center">
+                  <div class="text-2xl">
+                    <img src="https://symbols.getvecta.com/stencil_92/21_postman-icon.c79f00c910.svg" class="postman"
+                      alt="postman">
+                    <span class=" text-gray-500 ysize">Postman</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="flex space-x-1 items-center">
+                  <div class="text-2xl">
+                    <i class="devicon-express-original colored xsize"></i>
+                    <span class=" text-gray-500 ysize">Express JS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </section>
+
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-dark text-light">
+    <div class="my-skills d-flex flex-column align-items-center justify-content-center">
+      <h1 class="skills-title">Projects</h1>
+
+    </div>
+    <div class="project-cards row row-cols-1 row-cols-md-2 g-4 my-2">
+      <div class="col m-5">
+        <div class="card card-1 py-3">
+          <a href="https://selection-portal.firebaseapp.com/" target="_blank">
+            <img src="asset/CSP.PNG" class="cns card-img-top" alt="Campus Selection Portal">
+          </a>
+
+          <div class="card-body">
+            <h4 class="card-title project-title">Campus Selection Portal</h4>
+            <p class="card-text em"><b class="tech-stack">Tech Stack : HTML, CSS</b><br><br>Developed a campus selection
+              application where users can apply to various companies visiting the college where admin will give username
+              & password.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col m-5">
+        <div class="card card-2 py-3">
+          <a href="https://github.com/shivendra-bhonsle/Mess-finder" target="_blank">
+            <img src="asset/mess1.PNG" class="mess card-img-top" alt="Mess Finder"></a>
+          <div class="card-body">
+            <h4 class="card-title project-title">Mess Finder</h4>
+            <p class="card-text em"><b class="tech-stack">Tech Stack : HTML, CSS, Javascript, Bootstrap, React
+                JS</b><br><br>Developed a mess finding application where users can find all nearby mess according to
+              area where admin will give username and password to users.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Contact Section -->
+  <section id="contactme" class="contact bg-light text-dark">
+    <div class="d-flex flex-column align-items-center justify-content-center">
+      <h1 class="contact-title">Contact</h1>
+      <h2 class="contact-subtitle text-primary">Connect with me</h2>
+    </div>
+    <div class="wrapper my-5">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-9">
+          <div class="contact-me text-center">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="mt-5 text-center px-3">
+                  <div class="d-flex flex-row align-items-center">
+                    <a href="https://www.google.co.in/maps/place/Rahuri,+Maharashtra+413705/@19.3942893,74.6331826,14z/data=!3m1!4b1!4m5!3m4!1s0x3bdc9380dd9e68db:0x4a78017caf21059a!8m2!3d19.3950986!4d74.6520835"
+                      target="_blank" rel="noreferrer">
+                      <span class="icons">
+                        <i class="fa fa-map-marker-alt"></i></span></a>
+                    <div class="address text-left">
+                      <span class="pull-left text-primary">Address</span><br />
+                      <p>860, Azad chowk, Rahuri, Ahmednagar - 413705</p>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-row align-items-center mt-3">
+                    <span class="icons">
+                      <i class="fa fa-phone"></i></span>
+                    <div class="address text-left">
+                      <span class="pull-left text-primary">Phone</span><br />
+                      <p>+91 9307058320</p>
+                    </div>
+                  </div>
+                  <div class="d-flex flex-row align-items-center mt-3">
+                    <a href="mailto:darakamruta@gmail.com" target="_blank" rel="noreferrer">
+                      <span class="icons">
+                        <i class="fas fa-envelope"></i></span></a>
+                    <div class="address text-left">
+                      <span class="pull-left text-primary">E-mail Address</span><br />
+                      <p>darakamruta@gmail.com</p>
+                    </div>
+                  </div><br>
+                  <div class="d-flex flex-row align-items-center mt-3">
+                    <div class="container">
+                      <div class="py-10 flex items-center space-x-4 justify-center">
+                        <a href="https://www.linkedin.com/in/amruta-darak/" target="_blank" rel="noreferrer"
+                          class="relative rounded-full">
+                          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                            class="linkedin" alt="Amruta LinkedIn"></a> &nbsp;&nbsp;
+                        <a href="https://github.com/amruta-26" target="_blank" rel="noreferrer"
+                          class="relative rounded-full">
+                          <img src="https://cdn.icon-icons.com/icons2/936/PNG/128/github-logo_icon-icons.com_73546.png"
+                            class="github" alt="Amruta GitHub"></a> &nbsp;&nbsp;
+                        <a href="https://www.instagram.com/_a_m_d_7_/" target="_blank" rel="noreferrer"
+                          class="relative rounded-full">
+                          <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" class="insta"
+                            alt="Amruta Instagram"></a> &nbsp; &nbsp;
+                        <a href="mailto:darakamruta@gmail.com" target="_blank" rel="noreferrer"
+                          class="relative rounded-full">
+                          <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" class="mail"
+                            alt="Amruta Mail"></a> &nbsp; &nbsp;
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="text-center px-1">
+                  <div class="forms p-4 py-5 bg-white">
+                    <h5>Send Message</h5>
+                    <form class="myForm text-center" action="form.html">
+                      <div class="mt-4 inputs">
+                        <input type="text" id="fname" class="form-control" pattern="[a-zA-Z][a-zA-Z ]{1,}" placeholder="First Name" required />
+                        <input type="text" id="lname" class="form-control" pattern="[a-zA-Z][a-zA-Z ]{1,}" placeholder="Last Name" />
+                        <input type="email" id="email" class="form-control" placeholder="Email Address" required />
+                        <input type="phone" id="mob" class="form-control" pattern="[7-9]\d{9}" placeholder="Mobile Number" />
+                        <textarea id="msg" class="form-control" pattern="[a-zA-Z][a-zA-Z ]{2,}" placeholder="Any Suggestion/Message..."></textarea>
+                      </div>
+                      <!-- <div class="button mt-4 text-center">
+                        <input type="button" id="savebtn" onclick="save()" class="btn btn-dark" value="Save the response" />
+                        <input type="button" id="viewbtn" onclick="view()" class="btn btn-dark" value="View all other responses" />
+                      </div> -->
+                      <div class="button mt-4 text-left">
+                        <input type="submit" id="sendbtn" class="btn btn-dark" value="Send" />
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer-bot p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+      <p class="lead">Copyright &copy; 2022 Amruta Darak</p>
+
+      <a href="#" class="position-absolute bottom-0 end-0 p-5">
+        <i class="bi bi-arrow-up-circle h1"></i>
+      </a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

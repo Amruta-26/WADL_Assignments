@@ -1,0 +1,171 @@
+@media (max-width: 1300px) {
+  #home,
+  #about,
+  #education,
+  #skills,
+  #projects,
+  #contactme {
+    height: max-content;
+    width: 100vw;
+  }
+}
+
+
+
+@media (max-width: 1230px) {
+  #home,
+  #about,
+  #education,
+  #skills,
+  #projects,
+  #contactme {
+    height: max-content;
+    width: 100vw;
+  }
+}
+
+
+
+@media (max-width: 1070px) {
+  #home,
+  #about,
+  #education,
+  #skills,
+  #projects,
+  #contactme {
+    height: max-content;
+    width: 100vw;
+  }
+}
+
+
+
+@media (max-width: 991px) {
+  #home,
+  #about,
+  #education,
+  #skills,
+  #projects,
+  #contactme {
+    height: max-content;
+    width: 100vw;
+  }
+
+  
+}
+
+
+
+@media (max-width: 767px) {
+  #home,
+  #about,
+  #education,
+  #skills,
+  #projects,
+  #contactme {
+    height: max-content;
+    width: 100vw;
+  }
+
+  .navbar-brand {
+    width: 300px;
+  }
+
+  .offcanva-button .fas {
+    font-size: 15px;
+  }
+
+  .offcanva-button {
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+  }
+
+  .home-all-text
+  {
+    text-align: center;
+  }
+
+  .text-1 {
+    font-size: 30px;
+  }
+
+  .text-2 {
+    font-size: 45px;
+  }
+
+  .text-3 {
+    font-size: 30px;
+  }
+
+  .col{
+    width:52%;
+  }
+
+  .home-con {
+    padding: 20px;
+  }
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    width: 300px;
+  }
+
+  .offcanva-button .fas {
+    font-size: 15px;
+  }
+
+  .offcanva-button {
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+  }
+
+  .home-all-text
+  {
+    text-align: center;
+  }
+
+  .text-1 {
+    font-size: 20px;
+  }
+
+  .text-2 {
+    font-size: 30px;
+  }
+
+  .text-3 {
+    font-size: 20px;
+  }
+
+  .col{
+    width:52%;
+  }
+
+  .project-title {
+    font-size: 18px;
+  }
+
+  .tech-stack {
+    font-size: 12px;
+  }
+
+  .port-img {
+    width: 40%;
+  }
+
+  .home-con {
+    padding: 20px;
+  }
+
+  .footer-bot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+}

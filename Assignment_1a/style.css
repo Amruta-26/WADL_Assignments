@@ -1,0 +1,332 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  display: block;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.navbar {
+  font-size: 20px;
+}
+
+.port-img {
+  width: 50%;
+}
+
+.offcanvas-title {
+  font-size: 25px;
+}
+
+/* Home Section Styling */
+#home {
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-con {
+  padding: 100px;
+}
+
+.text-1 {
+  font-size: 27px;
+}
+
+.text-2 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-left: -3px;
+}
+
+.text-3 {
+  font-size: 27px;
+}
+
+.text-3 span {
+	color: #fff;
+	font-weight: 500;
+}
+
+/* About Section Styling */
+#about {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 100px;
+}
+
+.aboutMe-title {
+  font-weight: 500;
+}
+
+.aboutMe-subtitle {
+  color: rgb(25, 0, 255);
+  font-weight: 500;
+}
+
+.hireMe {
+  letter-spacing: 2px;
+}
+
+/* .my-img
+{
+	margin-left: 50px;
+} */
+
+/* Education Section Styling */
+
+#education {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* @media (max-height: 700px) {
+	#education {
+	  height:max-content;
+	  width: 100%;
+	  justify-content: center;
+	  align-items: center;
+	  text-align: center;
+	}
+  } */
+
+.education-title {
+  font-weight: 500;
+}
+
+.education-subtitle {
+  color: rgb(25, 0, 255);
+  font-weight: 500;
+}
+
+/* Skills Section Styling */
+/* #skills
+{
+	height: 100vh;
+	padding: 100px;
+} */
+
+#skills {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* @media (max-height: 700px) {
+	#skills {
+	  height:max-content;
+	  width: 100%;
+	  justify-content: center;
+	  align-items: center;
+	  text-align: center;
+	}
+  } */
+
+.xsize,
+.ysize {
+  font-size: 20px;
+}
+
+.postman {
+  height: 20px;
+  width: 20px;
+}
+
+.linkedin,
+.insta,
+.github,
+.mail {
+  height: 40px;
+  width: 40px;
+}
+
+.short-des {
+  font-size: 17px;
+}
+
+.marb {
+  margin-bottom: 20px;
+}
+
+/* Project Section Styling */
+
+#projects {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 100px;
+}
+
+/* @media (max-height: 700px) {
+	#projects {
+	  height:max-content;
+	  width: 100%;
+	  justify-content: center;
+	  align-items: center;
+	  text-align: center;
+	}
+  } */
+
+.project-cards {
+  color: #000;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-1,
+.card-2 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.col {
+  width: 42%;
+}
+.mess {
+  /* width: 500px; */
+  width: 80%;
+  height: 50%;
+}
+
+.cns {
+  /* width: 500px;*/
+  /* height: 341px; */
+  /* height: 100%; */
+  width: 80%;
+  height: 50%;
+}
+
+/* Contact Section Styling */
+
+/* #contactme
+{
+	height: 100vh;
+	padding-top: 100px;
+} */
+
+#contactme {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* @media (max-height: 700px) {
+	#contactme {
+	  height:max-content;
+	  width: 100%;
+	  justify-content: center;
+	  align-items: center;
+	  text-align: center;
+	}
+  } */
+
+.wrapper {
+  background-size: cover;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.contact-me p {
+  color: #000;
+}
+
+.address {
+  margin-top: 14px !important;
+  margin-left: 10px;
+}
+
+.address span {
+  font-weight: 500;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #000;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons i {
+  font-size: 20px;
+  color: #fff;
+}
+
+.forms {
+  padding: 20px;
+}
+
+.inputs input {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #eee;
+}
+
+.inputs input:focus {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #7b1fa2;
+  box-shadow: none;
+}
+
+.inputs textarea {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #eee;
+  width: 100%;
+  resize: none;
+}
+
+.inputs textarea:focus {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #7b1fa2;
+  box-shadow: none;
+  resize: none;
+}
+
+.form-control {
+  padding: 0.375rem 0.25rem;
+}
+
+.form-control:hover {
+  background-color: ghostwhite;
+}
+
+#sendbtn:hover {
+  background-color: green;
+}
+
+#sendbtn {
+  background-color: blue;
+}
+
+/* Footer Styling */
+.fas {
+  color: #fff;
+}
